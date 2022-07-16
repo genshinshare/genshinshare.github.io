@@ -118,3 +118,7 @@
     color: skyblue;
     transition: all .4s ease-in-out;
 }
+
+.home-button {
+    text-decoration: none;
+}

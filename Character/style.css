@@ -59,18 +59,18 @@
     text-decoration: none;
 }
 
-.navigation > li > a:hover {
-    color: skyblue;
-    transition: all .4s ease-in-out;
-}
 .active {
-    color: white;
     background-color: skyblue;
     padding: 15px;
 }
 
-.active:hover {
+.actived {
     color: white !important;
+}
+
+.navigation > li > a:hover {
+    color: skyblue;
+    transition: all .4s ease-in-out;
 }
 
 .home-button {

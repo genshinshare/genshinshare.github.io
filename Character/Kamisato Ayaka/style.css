@@ -92,6 +92,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #F7FFF7;
+    padding-top: 5px;
 }
 
 .container-character > hr {
@@ -101,11 +102,240 @@
     margin-right: 20px;
 }
 
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
 .title-page {
-    text-align: center;
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    color: #031e38;
+    font-size: 30pt;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.con {
+    width: 25%;
+    height: 100%;
+    margin-right: 25px;
+}
+
+.con > img {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-img {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.container-biography {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.character-description {
+    width: 75%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.character-description > p{
+    line-height: 1.5em;
+}
+
+.lore {
+    font-style: italic;
+}
+
+.daftar-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.daftar {
+    width: 30%;
+    height: 100%;
+    margin-right: 5px;
+    border: 2px solid #9fd6e3;
+    background-color: #031e38;
+}
+
+.daftar > h3 {
+    margin: 5px;
+    color: white;
+}
+
+.daftar > img {
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.daftar-isi {
+    margin: 5px;
+    list-style-position: inside;
+    color: white;
+    line-height: 1.3em;
+}
+
+.daftar-isi > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.detail {
+    width: 70%;
+    height: 100%;
+    margin-left: 5px;
+    border: 2px solid #9fd6e3;
+    background-color: #9fd6e3;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    line-height: 1.7em;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.detail > p {
+    margin: 10px;
     color: #031e38;
 }
 
+.character-art {
+    width: 25%;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #9fd6e3;
+}
+
+.character-image {
+    width: 100%;
+    height: 100%;
+}
+
+.container-material {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.sub-judul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 5px;
+    border: 2px solid #031e38;
+    border-radius: 20px;
+    background-color: #031e38;
+}
+
+.nama-sub-judul {
+    height: 100%;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.con2{
+    height: 100%;
+}
+
+.icon-sub-judul {
+    width: 40px;
+    height: 40px;
+}
+
+.content-material {
+    width: 100%;
+    height: 100%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.material {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.material-image {
+    width: 25%;
+    height: 100%;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.material-image > img {
+    width: 100px;
+    height: 100px;
+}
+
+#one-star {
+    background-color: #a0a0a0;
+}
+
+#two-star {
+    background-color: #6dac8c;
+}
+
+#three-star {
+    background-color: #71a5c6;
+}
+
+#four-star{
+    background-color: #9171bf;
+}
+
+#five-star {
+    background-color: #da8f4c;
+}
+
+.material-description {
+    width: 75%;
+    height: 100%;
+    margin: 5px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.material-description > p {
+    color: #031e38;
+    line-height: 1.3em;
+}
+
+.material-description > h3 {
+    font-weight: bold;
+}
 
 .footer {
     width: 100%;
@@ -137,6 +367,7 @@
 }
 
 .footer-icon {
+    border-radius: 20px;
     align-items: center;
     display: grid;
     grid: 50px / 50px 50px 50px;

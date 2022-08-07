@@ -24,10 +24,14 @@
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-.container-welcome {
+.container-home {
     width: 100%;
-    height: 90.9vh;
+    height: 100%;
     background-color: skyblue;
+    background-image: url(../images/background-welcome.png);
+    background-size: cover;
+    background-attachment: initial;
+    background-repeat: repeat-y;
 }
 
 .welcome-section h1{
@@ -45,10 +49,6 @@
 .welcome-section{
     height: 90.9vh;
     width: 100%;
-    background-image: url(../images/background-welcome.png);
-    background-size: cover;
-    background-attachment: initial;
-    background-repeat: repeat-y;
 }
 
 .brand {
@@ -135,6 +135,28 @@
 
 .home-button {
     text-decoration: none;
+}
+
+.container-web-description {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+}
+
+.web-description {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.web-description > p {
+    border-radius: 20px;
+    border: 2px solid #031e38;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
 }
 
 ::-webkit-scrollbar {

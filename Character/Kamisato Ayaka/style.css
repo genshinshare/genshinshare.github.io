@@ -4,6 +4,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container-wrapper {
     width: 100%;
     height: 60px;
@@ -191,7 +195,7 @@
     margin: 5px;
     list-style-position: inside;
     color: white;
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
 
 .daftar-isi > li > a {
@@ -235,6 +239,25 @@
     height: 100%;
 }
 
+.jarak-antar-sub-bab {
+    display: flex;
+    justify-content: center;
+    -webkit-column-count: 7;
+    -moz-column-count: 7;
+    column-count: 7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.jarak-antar-sub-bab > img {
+    width: 2vw;
+    height: 4vh;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .container-material {
     height: 100%;
     margin-left: 20px;
@@ -275,6 +298,7 @@
 .content-material {
     width: 100%;
     height: 100%;
+    margin-top: 15px;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -296,8 +320,8 @@
 }
 
 .material-image > img {
-    width: 100px;
-    height: 100px;
+    width: 7.5vw;
+    height: 15vh;
 }
 
 #one-star {
@@ -320,6 +344,10 @@
     background-color: #da8f4c;
 }
 
+#bg-deskripsi {
+    background-color: #9fd6e3;
+}
+
 .material-description {
     width: 75%;
     height: 100%;
@@ -335,6 +363,116 @@
 
 .material-description > h3 {
     font-weight: bold;
+}
+
+.container-senjata {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.content-senjata {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.efisiensi-level {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.efisiensi-level > h2 {
+    font-weight: bold;
+}
+
+.list-senjata {
+    width: 100%;
+    height: 100%;
+}
+
+.senjata {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.gambar-senjata {
+    width: 11vw;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.gambar-senjata > img {
+    width: 11vw;
+    height: 22vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bagian-deskripsi-senjata {
+    width: 62%;
+    height: 100%;
+}
+
+.bagian-deskripsi-senjata > h3 {
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.bagian-deskripsi-senjata > p {
+    text-align: center;
+    line-height: 1.5em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.penjelasan {
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
+.stat-senjata {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.alasan {
+    width: 27%;
+    height: 100%;
+    background-color: #031e38;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+.alasan > h3{
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.alasan > p {
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.box-alasan {
+    width: 100%;
+    height: 100%;
+    background-color: #031e38;
+    color: #F7FFF7;
 }
 
 .footer {

@@ -393,13 +393,12 @@ html {
     height: 40px;
 }
 
-.efisiensi-level {
+.pos {
     width: 100%;
     height: 100%;
-    display: flex;
 }
 
-.efisiensi-level > h2 {
+.pos > h2 {
     font-weight: bold;
     display: block;
     margin-top: auto;
@@ -435,6 +434,7 @@ html {
 .peran-karakter {
     width: 20%;
     height: 100%;
+    margin: auto;
 }
 
 .peran-karakter > h3 {
@@ -461,20 +461,39 @@ html {
 .senjata {
     width: 20%;
     height: 100%;
+    margin: auto;
 }
 
-.conn {
+.conn-atas {
     width: 100%;
     height: 100%;
     display: flex;
 }
 
-.conn > img {
+.conn-bawah {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.conn-atas > img {
     width: 35%;
     height: 100%;
 }
 
-.conn > p {
+.conn-atas > p {
+    width: 65%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.conn-bawah > img {
+    width: 35%;
+    height: 100%;
+}
+
+.conn-bawah > p {
     width: 65%;
     height: 100%;
     text-align: center;
@@ -484,6 +503,7 @@ html {
 .artefak {
     width: 20%;
     height: 100%;
+    margin: auto;
 }
 
 .set-artefak {
@@ -505,9 +525,59 @@ html {
     margin: auto;
 }
 
+.mainstat {
+    width: 100%;
+    height: 100%;
+}
+
+.gambar-mainstat {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gambar-mainstat > img {
+    width: 19%;
+    height: 100%;
+    margin: auto;
+}
+
+.stat-mainstat {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.stat-mainstat > p {
+    width: 19%;
+    height: 100%;
+    text-align: center;
+    margin: 1px;
+    margin: auto;
+}
+
 .talenta {
     width: 20%;
     height: 100%;
+    margin: auto;
+}
+
+.gambar-talenta {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.gambar-talenta > img {
+    width: 4vw;
+    height: 8vh;
+    margin: auto;
+    margin: 2px;
+}
+
+.gambar-talenta > p {
+    text-align: center;
+    margin: auto;
 }
 
 .tombol {

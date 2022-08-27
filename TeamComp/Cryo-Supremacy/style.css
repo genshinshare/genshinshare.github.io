@@ -394,6 +394,7 @@ html {
 .pos {
     width: 100%;
     height: 100%;
+    margin-bottom: 3px;
 }
 
 .pos > h2 {
@@ -606,6 +607,7 @@ html {
 .tombol {
     width: 100%;
     height: 100%;
+    margin-bottom: 5px;
 }
 
 .collapsible {
@@ -685,6 +687,32 @@ html {
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.bagian-total-buff {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.content-total-buff {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.container-disqus {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footer {

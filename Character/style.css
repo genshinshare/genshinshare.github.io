@@ -10,9 +10,10 @@ html {
 
 .container-wrapper {
     width: 100%;
-    height: 60px;
-    background-color: skyblue;
+    height: 100%;
+    background-color: #031e38;
     display: flex;
+    padding-bottom: 60px;
 }
 
 .wrapper {
@@ -123,7 +124,6 @@ html {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 156px;
     height: 206px;
@@ -156,8 +156,40 @@ html {
     font-size: 40pt;
 }
 
+.back-to-top {
+    position: fixed;
+    right: 5px;
+    bottom: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: #031e38;
+    opacity: 0;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    z-index: 20px;
+}
+  
+  /* Untuk memunculkan tombol */
+.back-to-top.show {
+    bottom: 20px;
+    opacity: 1;
+}
+  
+.back-to-top svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: white;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
 .footer {
-    min-width: 100%;
+    width: 100%;
     height: 100%;
     background-color: #031e38;
     display: flex;
@@ -203,4 +235,62 @@ html {
   
 ::-webkit-scrollbar-thumb {
     background-color: #CB9173;
+}
+
+@media only screen and (max-width: 1342px) {
+    .container-card {
+        grid: 156px / 156px 156px 156px 156px 156px 156px; /* 6 card per horizontal */
+    }
+}
+
+@media only screen and (max-width: 1154px) {
+    .container-card {
+        grid: 156px / 156px 156px 156px 156px 156px; /* 5 card per horizontal */
+    }
+}
+
+@media only screen and (max-width: 974px) {
+    .container-card {
+        grid: 156px / 156px 156px 156px 156px; /* 4 card per horizontal */
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .container-card {
+        grid: 156px / 156px 156px 156px; /* 3 card per horizontal */
+    }
+}
+
+@media only screen and (max-width: 602px) {
+    .container-card {
+        grid: 156px / 156px 156px; /* 2 card per horizontal */
+    }
+}
+
+@media only screen and (max-width: 419px) {
+    .container-card {
+        grid: 156px / 156px; /* 1 card per horizontal */
+    }
+}
+
+@media only screen and (max-width: 521px) {
+    .container-wrapper {
+        padding-bottom: 0;
+    }
+    .brand {
+        justify-content: center;
+        font-size: 10px;
+    }
+    .wrapper {
+        flex-direction: column;
+        position: relative;
+        height: 100%;
+        justify-content: center;
+    }
+    .navigation > li {
+        padding: 5px;
+    }
+    .navigation > li > a {
+        font-size: 10px;
+    }
 }

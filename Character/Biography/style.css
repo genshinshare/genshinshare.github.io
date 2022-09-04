@@ -1,0 +1,1212 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #031e38;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: #031e38;
+    display: flex;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.firstname {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.lastname {
+    color: skyblue;
+    font-weight: 600;
+    padding-left: 3px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navigation > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: skyblue;
+    padding: 15px;
+}
+
+.actived {
+    color: white !important;
+}
+
+.navigation > li > a:hover {
+    color: skyblue;
+    transition: all .4s ease-in-out;
+}
+
+.home-button {
+    text-decoration: none;
+}
+
+.container-content {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-character {
+    max-width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.container-character > hr {
+    border-width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-page {
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    color: #031e38;
+    font-size: 30pt;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.con {
+    width: 25%;
+    height: 100%;
+    margin-right: 25px;
+}
+
+.con > img {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-img {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.container-biography {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.character-description {
+    width: 75%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.character-description > p{
+    line-height: 1.5em;
+}
+
+.lore {
+    font-style: italic;
+}
+
+.daftar-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.daftar {
+    width: 30%;
+    height: 100%;
+    margin-right: 5px;
+    background-color: #031e38;
+}
+
+.daftar > h3 {
+    margin: 5px;
+    color: white;
+}
+
+.daftar > img {
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.daftar-isi {
+    margin: 5px;
+    list-style-position: inside;
+    color: white;
+    line-height: 1.5em;
+}
+
+.daftar-isi > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.daftar-isi > li > a:hover {
+    color: skyblue;
+}
+
+.detail {
+    width: 70%;
+    height: 100%;
+    margin-left: 5px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    line-height: 1.7em;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.detail > p {
+    margin: 10px;
+    color: #031e38;
+    text-align: left;
+}
+
+.character-art {
+    width: 25%;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.character-image {
+    width: 100%;
+    height: 100%;
+}
+
+.jarak-antar-sub-bab {
+    display: flex;
+    justify-content: center;
+    -webkit-column-count: 7;
+    -moz-column-count: 7;
+    column-count: 7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.jarak-antar-sub-bab > img {
+    width: 2vw;
+    height: 4vh;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-material {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.sub-judul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 5px;
+    border: 2px solid #031e38;
+    border-radius: 20px;
+    background-color: #031e38;
+}
+
+.nama-sub-judul {
+    height: 100%;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.con2{
+    height: 100%;
+}
+
+.icon-sub-judul {
+    width: 40px;
+    height: 40px;
+}
+
+.content-material {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.material {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.material-image {
+    width: 25%;
+    height: 100%;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.material-image > img {
+    width: 100px;
+    height: 100px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 5px;
+    bottom: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: #031e38;
+    opacity: 0;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    z-index: 20px;
+}
+  
+  /* Untuk memunculkan tombol */
+.back-to-top.show {
+    bottom: 20px;
+    opacity: 1;
+}
+  
+.back-to-top svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: white;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+/*rarity*/
+#one-star {
+    background-color: #a0a0a0;
+}
+#two-star {
+    background-color: #6dac8c;
+}
+#three-star {
+    background-color: #71a5c6;
+}
+#four-star{
+    background-color: #9171bf;
+}
+#five-star {
+    background-color: #da8f4c;
+}
+
+/*----------cryo----------*/
+#bg-deskripsi-cryo{
+    background-color: #9fd6e3;
+}
+#daftar-isi-cryo{
+    border: 2px solid #9fd6e3;
+}
+#detail-cryo{
+    border: 2px solid #9fd6e3;
+    background-color: #9fd6e3;
+}
+#character-art-cryo{
+    border: 2px solid #9fd6e3;
+}
+
+/*----------pyro----------*/
+#bg-deskripsi-pyro{
+    background-color: #ea7938;
+}
+#daftar-isi-pyro{
+    border: 2px solid #ea7938;
+}
+#detail-pyro{
+    border: 2px solid #ea7938;
+    background-color: #ea7938;
+}
+#character-art-pyro{
+    border: 2px solid #ea7938;
+}
+
+
+/*----------hydro----------*/
+#bg-deskripsi-hydro{
+    background-color: #5fc1f1;
+}
+#daftar-isi-hydro{
+    border: 2px solid #5fc1f1;
+}
+#detail-hydro{
+    border: 2px solid #5fc1f1;
+    background-color: #5fc1f1;
+}
+#character-art-hydro{
+    border: 2px solid #5fc1f1;
+}
+
+/*----------anemo----------*/
+#bg-deskripsi-anemo{
+    background-color: #71c2a7;
+}
+#daftar-isi-anemo{
+    border: 2px solid #71c2a7;
+}
+#detail-anemo{
+    border: 2px solid #71c2a7;
+    background-color: #71c2a7;
+}
+#character-art-anemo{
+    border: 2px solid #71c2a7;
+}
+
+/*----------electro----------*/
+#bg-deskripsi-electro{
+    background-color: #b38cc1;
+}
+#daftar-isi-electro{
+    border: 2px solid #b38cc1;
+}
+#detail-electro{
+    border: 2px solid #b38cc1;
+    background-color: #b38cc1;
+}
+#character-art-electro{
+    border: 2px solid #b38cc1;
+}
+
+/*----------dendro----------*/
+#bg-deskripsi-dendro{
+    background-color: #9bc926;
+}
+#daftar-isi-dendro{
+    border: 2px solid #9bc926;
+}
+#detail-dendro{
+    border: 2px solid #9bc926;
+    background-color: #9bc926;
+}
+#character-art-dendro{
+    border: 2px solid #9bc926;
+}
+
+
+/*----------geo----------*/
+#bg-deskripsi-geo{
+    background-color: #f2b722;
+}
+#daftar-isi-geo{
+    border: 2px solid #f2b722;
+}
+#detail-geo{
+    border: 2px solid #f2b722;
+    background-color: #f2b722;
+}
+#character-art-geo{
+    border: 2px solid #f2b722;
+}
+
+.material-description {
+    width: 75%;
+    height: 100%;
+    margin: 5px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.material-description > p {
+    color: #031e38;
+    line-height: 1.3em;
+}
+
+.material-description > h3 {
+    font-weight: bold;
+}
+
+.container-senjata {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.content-senjata {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.efisiensi-level {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.efisiensi-level > h2 {
+    font-weight: bold;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.efisiensi-level > img {
+    width: 50px;
+    height: 50px;
+}
+
+.list-senjata {
+    width: 100%;
+    height: 100%;
+}
+
+.senjata {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.gambar-senjata {
+    width: 11%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.gambar-senjata > img {
+    width: 11vw;
+    height: 22vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bagian-deskripsi-senjata {
+    width: 62%;
+    height: 100%;
+}
+
+.bagian-deskripsi-senjata > h3 {
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.bagian-deskripsi-senjata > p {
+    text-align: center;
+    line-height: 1.5em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.penjelasan {
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
+.penjelasan-bold {
+    font-size: smaller;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.stat-senjata {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.alasan {
+    width: 27%;
+    height: 100%;
+    background-color: #031e38;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+.alasan > h3{
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.alasan > p {
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.box-alasan {
+    width: 100%;
+    height: 100%;
+    background-color: #031e38;
+    color: #F7FFF7;
+}
+
+.container-talent {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.content-talenta {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.talenta {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.gambar-talenta {
+    width: 9%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.gambar-talenta > img {
+    width: 8vw;
+    height: 16vh;
+}
+
+.deskripsi-talenta {
+    width: 51%;
+    height: 100%;
+    margin: auto;
+}
+
+.deskripsi-talenta > p {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.deskripsi-talenta > h3 {
+    margin: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.tipe-talenta {
+    font-weight: bold;
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
+.link {
+    text-align: center;
+}
+
+.link:hover {
+    color: red;
+}
+
+.video-talenta {
+    width: 20%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.video-talenta > video{
+    width: 100%;
+    height: 100%;
+}
+
+.anjuran-talenta {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+}
+
+.anjuran-talenta > p {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.anjuran-talenta > h3 {
+    margin: 5px;
+    text-align: center;
+}
+
+.container-artefak {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.content-artefak {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.container-stat-artefak {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-left: 6px solid #031e38;
+    border-top: 6px solid #031e38;
+    border-right: 6px solid #031e38;
+}
+
+.mainstat-artefak {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.mainstat-artefak > h3 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.mainstats > hr {
+    text-align: center;
+    width: 100%;
+}
+
+.con3 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.con3gambar {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.con3gambar > img {
+    width: 4vw;
+    height: 8vh;
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
+
+.con3tulisan {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.con3tulisan > p {
+    text-align: center;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.substats-artefak {
+    width: 50%;
+    height: 100%;
+    list-style: inside;
+    display: block;
+}
+
+.substats-artefak > h3 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.substats-artefak > p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.substats-artefak > ol > li {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 3em;
+}
+
+.container-rekomendasi-set-artefak {
+    width: 100%;
+    height: 100%;
+}
+
+.rekomendasi-set-artefak {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-left: 6px solid #031e38;
+    border-top: 6px solid #031e38;
+    border-right: 6px solid #031e38;
+}
+
+.rekomendasi-set-artefak-terakhir {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 6px solid #031e38;
+}
+
+.kotak-gambar-artefak {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.gambar-artefak {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.gambar-artefak > img {
+    width: 7.5vw;
+    height: 15vh;
+    display: block;
+    margin: auto;
+}
+
+.gambar-artefak > p {
+    text-align: center;
+}
+
+.set-artefak {
+    width: 25%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.jumlah-piece > p {
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bonus-piece > p {
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.set-artefak > h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.piece {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.anjuran-artefak {
+    width: 50%;
+    height: 100%;
+    list-style-position: inside;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.anjuran-artefak > h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.anjuran-artefak > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.anjuran-artefak > ul > li {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.container-konstelasi {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.content-konstelasi {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.konstelasi {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.gambar-konstelasi {
+    width: 10%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.gambar-konstelasi > img {
+    width: 5vw;
+    height: 10vh;
+    display: block;
+    margin: auto;
+}
+
+.stat-konstelasi {
+    width: 45%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.stat-konstelasi > p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.stat-konstelasi > h3 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.anjuran-konstelasi {
+    width: 45%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.anjuran-konstelasi > p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.anjuran-konstelasi > h3 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container-team-comp {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F7FFF7;
+    padding-top: 5px;
+}
+
+.judul-kotak {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 2px solid #031e38;
+    background-color: #031e38;
+}
+
+.content-team-comp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.team-comp {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+}
+
+.team-comp:hover {
+    background-color: #031e38;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+.team-comp > a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.team-comp > a:hover {
+    color: white;
+}
+
+.judul-team-comp {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.judul-team-comp > h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.kotak-karakter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.karakter {
+    width: 25%;
+    height: 100%;
+}
+
+.gambar-karakter {
+    width: 100%;
+    height: 100%;
+}
+
+.gambar-karakter > img {
+    width: 10vw;
+    height: 20vh;
+    display: block;
+    margin: auto;
+}
+
+.teks-karakter {
+    width: 100%;
+    height: 100%;
+}
+
+.teks-karakter > p {
+    margin: 5px;
+    text-align: center;
+}
+
+.container-disqus {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #031e38;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+.footer > p {
+    margin-top: 35px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer > p > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer > p > a:hover {
+    color: skyblue;
+    transition: all .4s ease-in-out;
+}
+
+.footer-icon-container {
+    margin-top: 20px;
+}
+
+.footer-icon {
+    border-radius: 20px;
+    align-items: center;
+    display: grid;
+    grid: 50px / 50px 50px 50px;
+    grid-gap: 10px;
+    padding-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #CB9173;
+}
+
+/*vertical*/
+@media only screen and (max-width: 521px) {
+    .container-wrapper {
+        padding-bottom: 0;
+    }
+    .brand {
+        justify-content: center;
+    }
+    .wrapper {
+        flex-direction: column;
+        position: relative;
+        height: 100%;
+        justify-content: center;
+    }
+    .navigation > li {
+        padding: 5px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-icon {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}

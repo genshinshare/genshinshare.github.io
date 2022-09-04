@@ -467,6 +467,10 @@ html {
     .navigation > li {
         padding: 5px;
     }
+    .gambar-karakter > img {
+        width: 20vw;
+        height: 10vh;
+    }
     .footer {
         display: flex;
         flex-direction: column;

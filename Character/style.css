@@ -91,7 +91,7 @@ html {
 }
 
 .container-character {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     margin-left: 20px;
     margin-right: 20px;
@@ -108,17 +108,15 @@ html {
 }
 
 .container-card {
-    width: 100%;
     height: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
     display: grid;
     grid: 156px / 156px 156px 156px 156px 156px 156px 156px; /* 7 card per horizontal */
     grid-column-gap: 29px;
     grid-row-gap: 80px;
     padding-bottom: 20px;
+    justify-content: center;
 }
 
 .card {
@@ -271,13 +269,13 @@ html {
     }
 }
 
+/*vertical*/
 @media only screen and (max-width: 521px) {
     .container-wrapper {
         padding-bottom: 0;
     }
     .brand {
         justify-content: center;
-        font-size: 10px;
     }
     .wrapper {
         flex-direction: column;
@@ -288,7 +286,14 @@ html {
     .navigation > li {
         padding: 5px;
     }
-    .navigation > li > a {
-        font-size: 10px;
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-icon {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
     }
 }

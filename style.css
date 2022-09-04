@@ -111,6 +111,11 @@ body {
     display: block;
     margin: auto;
     margin-top: 20px;
+    transition: 0.4s;
+}
+
+.archon > img:hover {
+    transform: scale(1.2);
 }
 
 .welcome-section h1{
@@ -154,6 +159,7 @@ body {
 .pil:hover {
     color: #031e38;
     background-color: white;
+    transform: scale(1.2);
 }
 
 .active {
@@ -259,6 +265,12 @@ body {
     }
     .web-description > p {
         border-radius: 0%;
+    }
+    .brand {
+        font-size: 24px;
+    }
+    .navigation > li > a {
+        font-size: 15px;
     }
     .navigation > li {
         padding: 5px;

@@ -411,6 +411,7 @@ html {
 }
 
 .footer-icon-container {
+    height: 100%;
     margin-top: 20px;
 }
 
@@ -420,6 +421,11 @@ html {
     grid: 50px / 50px 50px 50px;
     grid-gap: 10px;
     padding-bottom: 10px;
+}
+
+.footer-icon > a > img {
+    width: 50px;
+    height: 100%;
 }
 
 ::-webkit-scrollbar {

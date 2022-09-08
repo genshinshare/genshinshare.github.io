@@ -1122,7 +1122,7 @@ html {
 }
 
 .gambar-karakter > img {
-    width: 100%;
+    width: 100px;
     height: 100%;
     display: block;
     margin: auto;
@@ -1196,8 +1196,7 @@ html {
     background-color: #CB9173;
 }
 
-/*vertical*/
-@media only screen and (max-width: 521px) {
+@media only screen and (max-width: 600px) {
     .container-wrapper {
         padding-bottom: 0;
     }
@@ -1235,6 +1234,12 @@ html {
     .material-image > img {
         width: 70px;
         height: 70px;
+    }
+}
+
+@media only screen and (max-width: 392px) {
+    .gambar-karakter > img {
+        width: 65px;
     }
 }
 
@@ -1377,5 +1382,8 @@ html {
     .konstelasi > hr {
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .gambar-karakter > img {
+        width: 80px;
     }
 }

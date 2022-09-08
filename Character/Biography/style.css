@@ -1230,7 +1230,7 @@ html {
 
 @media only screen and (max-width: 451px) {
     .material-image > img {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
 }

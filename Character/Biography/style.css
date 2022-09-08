@@ -819,7 +819,6 @@ html {
     margin-bottom: auto;
 }
 
-
 .substats-artefak {
     width: 50%;
     height: 100%;
@@ -1123,8 +1122,8 @@ html {
 }
 
 .gambar-karakter > img {
-    width: 10vw;
-    height: 20vh;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: auto;
 }
@@ -1243,15 +1242,16 @@ html {
     .daftar-detail {
         flex-direction: column;
         justify-content: center;
-        margin-right: 0;
         margin: auto;
         margin-bottom: 5px;
     }
     .daftar {
         width: 100%;
+        margin-right: 0;
     }
     .detail {
         width: 100%;
+        text-align: center;
         column-count: 1;
         margin-left: 0;
         margin: auto;
@@ -1276,5 +1276,106 @@ html {
     .character-image-portrait {
         width: 100%;
         height: 100%;
+    }
+    .jarak-antar-sub-bab > img {
+        width: 14px;
+    }
+    .senjata {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gambar-senjata {
+        width: 100%;
+        text-align: center;
+    }
+    .gambar-senjata > img {
+        width: 25vw;
+        height: 12.5vh;
+        margin: auto;
+    }
+    .bagian-deskripsi-senjata {
+        width: 100%;
+    }
+    .alasan {
+        width: 100%;
+    }
+    .talenta {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gambar-talenta {
+        width: 100%;
+        text-align: center;
+    }
+    .gambar-talenta > img {
+        width: 16vw;
+        height: 8vh;
+    }
+    .deskripsi-talenta {
+        width: 100%;
+    }
+    .video-talenta {
+        width: 100%;
+    }
+    .anjuran-talenta {
+        width: 100%;
+    }
+    .container-stat-artefak {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mainstat-artefak {
+        width: 100%;
+    }
+    .con3gambar > img{
+        width: 8vw;
+        height: 4vh;
+    }
+    .substats-artefak {
+        width: 100%;
+    }
+    .rekomendasi-set-artefak {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .kotak-gambar-artefak {
+        width: 100%;
+    }
+    .gambar-artefak > img {
+        width: 15vw;
+        height: 7.5vh;
+    }
+    .set-artefak {
+        width: 100%;
+    }
+    .anjuran-artefak {
+        width: 100%;
+    }
+    .rekomendasi-set-artefak-terakhir {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .konstelasi {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gambar-konstelasi {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .gambar-konstelasi > img {
+        width: 17vw;
+        height: 8.5vh;
+    }
+    .stat-konstelasi {
+        width: 100%;
+    }
+    .anjuran-konstelasi {
+        width: 100%;
+    }
+    .konstelasi > hr {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
